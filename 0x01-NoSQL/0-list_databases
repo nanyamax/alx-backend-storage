@@ -1,3 +1,2 @@
-#!/usr/bin/bash
-
+// script to list all dbs in mongo
 show dbs
