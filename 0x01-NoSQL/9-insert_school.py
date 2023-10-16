@@ -8,5 +8,5 @@ def insert_school(mongo_collection, **kwargs):
     """
     Prototype: def insert_school(mongo_collection, **kwargs)
     """
-    new_kwargs = mongo_collection.insertOne(kwargs)
+    new_kwargs = mongo_collection.insert_one(kwargs)
     return new_kwargs.inserted_id
