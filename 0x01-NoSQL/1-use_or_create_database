@@ -1,2 +1,2 @@
 // creates or uses a database
-use <my_db>
+use my_db
